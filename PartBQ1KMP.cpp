@@ -15,15 +15,13 @@ void foo( int pie[], string str ,int length)
         if( str[i] == str[j] )
         j++; //since matching again so incremented value has to be saved as pie 
         pie[i]=j; 
-    }
-	
+    }	
 }
-
 
 int main()
 {
     int pie[9];
-    string str="mueedmueedmueed";
+    string str="mueedabdulmueed";
     foo(pie, str, 9);
     for( int i=0; i<9; i++)
     	cout<<pie[i]<<"\t";
