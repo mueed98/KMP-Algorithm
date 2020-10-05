@@ -1,2 +1,1 @@
-# AlgoRepo
-* Rabin Karp Code missing *
+# KMP Algorithm Basic Example
